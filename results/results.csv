@@ -1,0 +1,23 @@
+input,mode,B,C,H,W,flat_shape,E_max,MAE,ref_match,t_flatten_s,t_reconstruct_s
+MNIST / sample,loop,8,1,28,28,8x784,0.0,0.0,True,0.0018,0.0019
+MNIST / sample,vectorized,8,1,28,28,8x784,0.0,0.0,True,0.0001,0.0001
+CIFAR-10 / sample,loop,8,3,32,32,8x3072,0.0,0.0,True,0.0075,0.0077
+CIFAR-10 / sample,vectorized,8,3,32,32,8x3072,0.0,0.0,True,0.0002,0.0001
+CIFAR-100 / sample,loop,8,3,32,32,8x3072,0.0,0.0,True,0.0075,0.0075
+CIFAR-100 / sample,vectorized,8,3,32,32,8x3072,0.0,0.0,True,0.0001,0.0001
+Synthetic fmap C=8,loop,8,8,32,32,8x8192,0.0,0.0,True,0.02,0.0201
+Synthetic fmap C=8,vectorized,8,8,32,32,8x8192,0.0,0.0,True,0.0004,0.0003
+Synthetic fmap C=16,loop,8,16,32,32,8x16384,0.0,0.0,True,0.0407,0.0399
+Synthetic fmap C=16,vectorized,8,16,32,32,8x16384,0.0,0.0,True,0.0008,0.0008
+Synthetic fmap C=32,loop,8,32,32,32,8x32768,0.0,0.0,True,0.082,0.08
+Synthetic fmap C=32,vectorized,8,32,32,32,8x32768,0.0,0.0,True,0.0014,0.0019
+Synthetic fmap C=64,loop,8,64,32,32,8x65536,0.0,0.0,True,0.1651,0.1596
+Synthetic fmap C=64,vectorized,8,64,32,32,8x65536,0.0,0.0,True,0.0026,0.0037
+Synthetic fmap C=128,loop,8,128,32,32,8x131072,0.0,0.0,True,0.3316,0.321
+Synthetic fmap C=128,vectorized,8,128,32,32,8x131072,0.0,0.0,True,0.0053,0.0078
+Synthetic fmap C=256,loop,8,256,32,32,8x262144,0.0,0.0,True,0.7382,0.6431
+Synthetic fmap C=256,vectorized,8,256,32,32,8x262144,0.0,0.0,True,0.0127,0.0176
+Synthetic fmap C=500,loop,8,500,32,32,8x512000,0.0,0.0,True,1.3176,1.3516
+Synthetic fmap C=500,vectorized,8,500,32,32,8x512000,0.0,0.0,True,0.0138,0.033
+Synthetic odd-shape,loop,3,5,7,11,3x385,0.0,0.0,True,0.0004,0.0003
+Synthetic odd-shape,vectorized,3,5,7,11,3x385,0.0,0.0,True,0.0001,0.0
