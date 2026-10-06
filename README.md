@@ -1,6 +1,7 @@
 # Assignment 3: BCHW ↔ B×(CHW) Tensor Flattening
 
 From-scratch flattening and reconstruction of NCHW tensors. Neither direction uses `reshape`, `view`, `flatten` or `ravel`.
+##### Link: https://upendra2003.github.io/Flatten_and_Reconstruct/
 
 | Direction | Mapping |
 |---|---|
